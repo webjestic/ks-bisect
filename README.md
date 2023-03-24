@@ -31,7 +31,8 @@ Step 6 - Repeat processes
 EXECUTE:
 
 - `git log --oneline`
-- `git checkout bf8b150`
+- `git bisect start`
+- `git good bf8b150`
 
 ## Off Topic Tips
 
