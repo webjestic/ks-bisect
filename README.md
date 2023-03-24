@@ -26,3 +26,4 @@ Step 6 - Repeat processes
 ## Off Topic Tips
 
 - Using `await` does not block the main thread.
+- Does adding `async` to a normal function turn it into a promise?
