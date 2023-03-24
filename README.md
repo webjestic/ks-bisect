@@ -12,3 +12,5 @@ Works great for quickly finding a bug that was introduced, but at an unknown tim
 Step 1 - Read the [Bisect Debugging Section](https://gist.github.com/webjestic/2a011d505335de09f5b2fb472a4bc990#bisect-debugging)
 Step 2 - Ensure no changes are pending in your active branch
 Step 3 - Start the bisect process
+Step 4 - Mark the top commit as bad
+Step 5 - Mark a commit as good
