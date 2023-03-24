@@ -19,4 +19,5 @@ Step 5 - Mark a commit as good `git bisect bad`
 Step 5a - `git log --oneline`
 Step 5b - git checkout 415dfc6
 Step 5c - if checkouted out branch does not have bug, mark as good `git bisect good`
-Step 6
+Step 6 - Repeat processes
+
