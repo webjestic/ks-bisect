@@ -33,3 +33,22 @@ Step 6 - Repeat processes
 - Using `await` does not block the main thread.
 - Does adding `async` to a normal function turn it into a promise?
 
+## GIST Info
+
+```shell
+git bisect start  # start session
+git bisect good 0x12abcd # detached HEAD
+git bisect bad    # identify current commit as bad
+
+# run tests to determine if bug exists
+git bisect good
+git log --oneline
+
+# identifed commit with the bug
+git bisect bad
+git bisect reset # reset HEAD to master when done OR if you have un-stashed changes
+
+git diff 8552d2e..415dfc6
+git difftool 8552d2e..415dfc6 # requires initial setup
+```
+
