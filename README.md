@@ -1,5 +1,7 @@
 # Using GIT Bisect
 
+WHICH COMMIT WAS THIS ADDED?
+
 ## Introduction
 
 I've created a [GIT cheatsheet](https://gist.github.com/webjestic/2a011d505335de09f5b2fb472a4bc990) to use, so I'll 
@@ -17,4 +19,4 @@ Step 5 - Mark a commit as good `git bisect bad`
 Step 5a - `git log --oneline`
 Step 5b - git checkout 415dfc6
 Step 5c - if checkouted out branch does not have bug, mark as good `git bisect good`
-
+Step 6
