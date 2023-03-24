@@ -13,4 +13,7 @@ Step 1 - Read the [Bisect Debugging Section](https://gist.github.com/webjestic/2
 Step 2 - Ensure no changes are pending in your active branch
 Step 3 - Start the bisect process
 Step 4 - Mark the top commit as bad
-Step 5 - Mark a commit as good
+Step 5 - Mark a commit as good `git bisect bad`
+Step 5a - git checkout 415dfc6
+Step 5c - if checkouted out branch does not have bug, mark as good `git bisect good`
+
