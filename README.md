@@ -28,6 +28,11 @@ Step 5b - git checkout 415dfc6
 Step 5c - if checkouted out branch does not have bug, mark as good `git bisect good`
 Step 6 - Repeat processes
 
+EXECUTE:
+
+- `git log --oneline`
+- `git checkout bf8b150`
+
 ## Off Topic Tips
 
 - Using `await` does not block the main thread.
