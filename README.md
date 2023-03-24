@@ -32,7 +32,8 @@ EXECUTE:
 
 - `git log --oneline`
 - `git bisect start`
-- `git good bf8b150`
+- `git bisect good bf8b150`
+- `git bisect bad`
 
 ## Off Topic Tips
 
