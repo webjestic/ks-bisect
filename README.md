@@ -4,7 +4,8 @@ WHICH COMMIT WAS THIS ADDED?
 
 You should be able to find the commit hash tag in less than 5 bisect moves.
 
-Your other option might be to checkout every commit yourself until you finally find it.
+Your other option might be to checkout every commit yourself until you finally find it. This may not be so bad
+for this example exercise, but would be horrible if you had to compule and execute tests in a simulator.
 
 ## Introduction
 
